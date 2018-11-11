@@ -21,8 +21,8 @@ void setup(){
  config = new Config();
  config.load();
  midiBus = new Midi();
- //fullScreen();
- size(1280,720);
+ fullScreen();
+ //size(1280,720);
  println("Setup");
  record=new Record();
  view = new View(record.getInput());

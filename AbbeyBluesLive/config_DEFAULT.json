@@ -1,0 +1,21 @@
+{
+"url_stt":"https://westus.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=en-US",
+"headers_stt": {"Ocp-Apim-Subscription-Key": "YOUR API KEY HERE",
+          "Content-Type": "audio/wav",
+		  "Accept": "application/json"},
+"url_sa":"https://westcentralus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment",
+"headers_sa": {"Ocp-Apim-Subscription-Key": "YOUR API KEY HERE",
+          "Content-Type": "application/json",
+		  },
+"guitarPresetNegative":0,
+"guitarPresetNeutral":1,
+"guitarPresetPositive":2,
+"guitarPresetDefault":1,
+"samplingRate": 44100,
+"frameLength": 4096,
+"recordTime": 6,
+"midiDeviceIn": 1,
+"midiDeviceOut":4
+
+
+}

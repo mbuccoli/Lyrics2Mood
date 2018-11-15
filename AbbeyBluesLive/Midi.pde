@@ -18,7 +18,6 @@ class Midi{
   }
   
   void stop(){
-    
     if(!this.isWorking){return;}
    myBus.close(); 
 }
